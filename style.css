@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.checkout-title {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  margin: 15px 0;
+}
+main {
+  position: relative;
+  width: 70%;
+  left: 70%;
+  transform: translate(-50%);
+  margin: 35px 0;
+  display: grid;
+  grid-template-columns: 465px 320px;
+}
+main form{
+     margin-right: 150px;
+     position: relative;
+     width: 80%;
+}
